@@ -1,8 +1,7 @@
 # MHPT
 code of JSTAR2024 “Pansharpening via Multiscale Embedding and Dual Attention Transformers”
 
-python packages requirement
-# Name                    Version                   Build  Channel
+python packages requirement(Name,Version,Build,Channel)
 _anaconda_depends         2020.07                  py38_0
 _ipyw_jlab_nb_ext_conf    0.1.0                    py38_0
 absl-py                   0.14.1                   pypi_0    pypi
