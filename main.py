@@ -34,7 +34,7 @@ def parse_option():
         "--cfg",
         type=str,
         metavar="FILE",
-        default=r"./configs/pancsc/pancsc_t.yaml",
+        default=r"./configs/mhpt/mhpt_w.yaml",
         help="path to config file, model name and type are in the yaml cfg file",
     )
     parser.add_argument(
@@ -47,7 +47,7 @@ def parse_option():
     # easy config modification
     parser.add_argument("--batch-size", type=int, default=1, help="batch size for single GPU")
     parser.add_argument("--tag", type=str, default="gf2", help="tag of experiment")
-    parser.add_argument("--ckpt-choice", type=str, default="50",
+    parser.add_argument("--ckpt-choice", type=str, default="latest",
                         help="the model to be tested")
     # choices=["best_ergas", "min_loss", "latest", "best_sam", "best_qnr", "80"]
     parser.add_argument("--test", action="store_true", help="Perform test only")
