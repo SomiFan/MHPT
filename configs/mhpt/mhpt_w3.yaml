@@ -1,0 +1,12 @@
+MODEL:
+  TYPE: mhpt
+  NAME: mhpt_w3
+  MHPT:
+    NSCALE: 3
+    EMB_DIM: 20
+    DEPTH: 2
+    WIN_SIZE: 8
+    NHEAD: 2
+    HEAD_DIM: 30
+    BLK_NAME: "AHAT"
+    LATENT_DIM: 128
